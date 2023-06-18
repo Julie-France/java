@@ -1,0 +1,110 @@
+package numericalSystems;
+
+        public class IuliiaExample {
+            public static void main(String[] args) {
+
+                int q = 118;
+                // степени 210
+
+                int result = 1 * 100 + 1 * 10 + 8 * 1;
+
+                // 1*10^2 + 1*10^1 + 8*10^0
+
+                // 1*10^2 + 1*10^1 + 8*10^0 ;
+                double result2 = 1 * Math.pow(10, 2) + 1 * Math.pow(10, 1) + 8 * Math.pow(10, 0);
+
+                System.out.println(result);
+
+
+                int q1 = 118;
+                // степени 210
+
+                //10=> 8
+                System.out.println(118 / 8);   // 14 < - делим его дальше
+                System.out.println(118 % 8);   // 6
+
+                System.out.println(14 / 8);    // 1 <- делим его дальше
+                System.out.println(14 % 8);    // 6
+
+                System.out.println(1 / 8);    // 0 <- останавливаемся т.к 0
+                System.out.println(1 % 8);    //1
+
+                // 106 в восьмеричной системе
+                //8->10
+                double result1 = 1 * Math.pow(8, 2) + 6 * Math.pow(8, 1) + 6 * Math.pow(8, 0);
+                System.out.println(result1);
+
+                // короткие пути перевода
+                // 10 - > 8
+                System.out.println(Integer.toOctalString(q));
+
+                //8 - >10
+                int q8 = 0166;
+                System.out.println(q8);
+
+
+                //10 ->2
+                System.out.println(118 / 2);  //59
+                System.out.println(118 % 2);  //0
+
+                System.out.println(59 / 2); // 29
+                System.out.println(59 % 2); // 1
+
+                System.out.println(29 / 2);  // 14
+                System.out.println(29 % 2); // 1
+
+                System.out.println(14 / 2);  // 7
+                System.out.println(14 % 2);  // 0
+
+                System.out.println(7 / 2);  // 3
+                System.out.println(7 % 2); // 1
+
+                System.out.println(3 / 2);  // 1
+                System.out.println(3 % 2);  // 1
+
+                System.out.println(1 / 2);  // 0
+                System.out.println(1 % 2);  // 1
+
+                //           1110110
+                // - степени 654321
+
+                //2 - > 10
+                double result0 = 1 * Math.pow(2, 6) + 1 * Math.pow(2, 5) + 1 * Math.pow(2, 4) + 0 * Math.pow(2, 3) + 1 * Math.pow(2, 2) + 1 * Math.pow(2, 1) + 0 * Math.pow(2, 0);
+                System.out.println(result2);
+
+                // короткие пути перевода
+                //10 -> 2
+                System.out.println(Integer.toBinaryString(q));
+
+                //2 -> 10
+                int q2 = 0b1110110;
+                System.out.println(q2);
+
+
+                int q3 = 118;
+                // степени 210
+
+                //10-> 16
+                System.out.println(118 / 16);   // 7 < - делим его дальше
+                System.out.println(118 % 16);   // 6
+
+                System.out.println(7 / 16);    // 0 <- останавливаемся т.к 0
+                System.out.println(7 % 16);    //7
+
+                //76
+
+                //16-> 10;
+                double result3 = 7 * Math.pow(16, 1) + 6 * Math.pow(16, 0);
+                System.out.println(result3);
+
+                // короткие пути перевода
+                // 10 - > 16
+                System.out.println(Integer.toHexString(q));
+
+                //16-> 10;
+                int q16 = 0x76;
+                System.out.println(q16);
+
+            }
+        }
+
